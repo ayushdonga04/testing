@@ -14,10 +14,7 @@ data = {
 }
 
 
-# Convert to DataFrame
-fct_guest_spending = pd.DataFrame(data)
 
-fct_guest_spending["visit_date"]=pd.to_datetime(fct_guest_spending["visit_date"])
 
 
 
